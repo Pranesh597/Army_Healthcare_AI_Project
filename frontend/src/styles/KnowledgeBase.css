@@ -1,0 +1,167 @@
+.knowledge-page{
+
+    padding:30px;
+
+    background:#f5f7fb;
+
+    min-height:100vh;
+
+}
+
+.knowledge-page h1{
+
+    color:#143d74;
+
+    margin-bottom:25px;
+
+}
+
+.knowledge-search{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.knowledge-search input{
+
+    flex:1;
+
+    padding:14px;
+
+    border:1px solid #d5dce5;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+.knowledge-search input:focus{
+
+    border-color:#143d74;
+
+}
+
+.knowledge-search button{
+
+    background:#143d74;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 28px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.knowledge-search button:hover{
+
+    background:#0d2c54;
+
+}
+
+.knowledge-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.knowledge-card h2{
+
+    color:#143d74;
+
+    margin-bottom:15px;
+
+}
+
+.knowledge-card h3{
+
+    margin-top:25px;
+
+    color:#143d74;
+
+}
+
+.knowledge-card p{
+
+    line-height:1.8;
+
+    color:#444;
+
+}
+
+.knowledge-card ul{
+
+    margin-top:10px;
+
+    padding-left:22px;
+
+}
+
+.knowledge-card li{
+
+    margin-bottom:8px;
+
+    line-height:1.6;
+
+}
+
+.knowledge-message{
+
+    color:#d32f2f;
+
+    font-size:17px;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+@media(max-width:768px){
+
+.knowledge-page{
+
+padding:15px;
+
+}
+
+.knowledge-search{
+
+flex-direction:column;
+
+}
+
+.knowledge-search button{
+
+width:100%;
+
+}
+
+.knowledge-card{
+
+padding:20px;
+
+}
+
+}

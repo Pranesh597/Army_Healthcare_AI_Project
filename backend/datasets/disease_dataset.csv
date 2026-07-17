@@ -1,0 +1,16 @@
+fever,cough,headache,fatigue,body_pain,vomiting,age,disease
+1,1,1,0,1,0,24,Flu
+1,0,1,1,0,1,32,Malaria
+0,1,0,0,0,0,28,Common Cold
+1,1,0,1,1,0,41,COVID-19
+0,0,1,1,0,0,21,Migraine
+1,1,1,1,1,1,35,Dengue
+0,1,1,0,0,0,27,Sinusitis
+1,0,0,1,1,0,40,Typhoid
+0,0,0,1,0,0,55,Anemia
+1,1,0,0,1,0,63,Pneumonia
+1,1,1,0,0,0,45,Influenza
+0,1,0,1,0,0,36,Bronchitis
+1,0,1,1,1,1,30,Viral Fever
+0,0,1,0,0,0,25,Stress
+1,1,0,1,1,0,50,Respiratory Infection
