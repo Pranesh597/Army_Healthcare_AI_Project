@@ -10,6 +10,7 @@ function Login() {
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+    const [role, setRole] = useState("Army Admin");
     const [error, setError] = useState("");
 
     const handleLogin = async (e) => {
@@ -21,10 +22,11 @@ function Login() {
         try {
 
             const response = await api.post(
-                "/users/login",
+                "/login",
                 {
                     username,
                     password,
+                    role,
                 }
             );
 
@@ -46,7 +48,7 @@ function Login() {
 
             console.log(error);
 
-            setError("Invalid Username or Password");
+            setError("Invalid Username, Password or Role");
 
         }
 
@@ -85,6 +87,16 @@ function Login() {
                         }
                         required
                     />
+
+                    <select
+                        value={role}
+                        onChange={(e) => setRole(e.target.value)}
+                        required
+                    >
+                        <option value="Army Admin">Army Admin</option>
+                        <option value="Military Doctor">Military Doctor</option>
+                        <option value="Security Analyst">Security Analyst</option>
+                    </select>
 
                     {error && (
 
